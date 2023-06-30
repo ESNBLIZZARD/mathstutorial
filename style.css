@@ -1,0 +1,183 @@
+#container
+{
+    width: 1050px;
+    margin: 0 auto;
+}
+h1 a
+{
+  font-size: 50px;
+  font-weight: 100px;
+  color:rgb(231, 10, 231) ;
+  text-decoration: none;
+  font-weight: bolder;
+  text-shadow: 4px 2px 2px rgb(83, 2, 70);
+}
+#header
+{
+    height: 100px;
+    padding: 10px 0;
+}
+#brand
+{
+    float: left;
+}
+#searchbox
+{
+    float: right;
+    background: linear-gradient(rgb(8, 117, 8) , rgb(10, 243, 10));
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.text
+{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(167, 54, 13);
+}
+.submit
+{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(85, 5, 85);
+    font-size: 15px;
+    border-radius: 20px;
+}
+.clear
+{
+    clear: both;
+}
+#menu
+{
+    height: 70px;
+    background: linear-gradient(rgb(252, 252, 8) , rgb(157, 238, 7));
+    padding: 8px 0;
+    border-radius: 20px;
+}
+ul
+{
+    list-style: none;
+}
+#menu ul li
+{
+  float: left;
+  padding: 0 30px;
+  height: 20px;
+  border-right: 1px solid red;
+}
+#menu ul li a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:17px ;
+  color: red;
+  line-height: 30px;
+  transition: font-size ease 1s orange;
+  padding-bottom: 4px;
+}
+#menu ul li:last-child
+{
+    border-right: none;
+}
+#menu ul li:hover
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(201, 11, 11);
+}
+#menu ul li a.active
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+}
+#introduction
+{
+    background: linear-gradient(rgb(2, 85, 2) , green );
+    padding: 30px;
+    margin: 15px 0px;
+    color: rgb(218, 233, 10);
+    border-radius: 20px;
+}
+#introduction h2
+{
+  font-size: 45px;
+  font-weight: normal;
+  text-decoration: none;
+}
+#introduction p
+{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: none;
+}
+.sidebar
+{
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+#leftsidebar
+{
+    float: left;
+    background: linear-gradient(rgb(80, 2, 18) , crimson);
+}
+#rightsidebar
+{
+    float: right;
+    background: linear-gradient(rgb(80, 2, 18) , crimson);
+}
+.sidebar h3
+{
+    color: rgb(2, 248, 35);
+    font-size: 30px;
+
+}
+.sidebar ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(7, 252, 252);
+    list-style-type: circle;
+    padding-bottom: 5px;
+}
+.sidebar ul li a:hover
+{
+    text-decoration: none;
+    color:  rgb(57, 83, 233);
+    font-size: 23px;
+    font-weight: bold;
+    transition: font-size ease 1s orange;
+}
+#sidebar ul li a:active
+{
+    text-decoration: none;
+}
+#leftsidebar ul li
+{
+  list-style: circle;
+  padding: 5px 0px;
+  color: white;
+}
+#rightsidebar ul li 
+{
+  list-style-type: lower-roman;
+  padding:10px 0px ;
+  color: white;
+}
+.footer
+{
+    height: 60px;
+    background: linear-gradient(rgb(165, 165, 5) , rgb(248, 248, 11) );
+    padding: 10px 30px;
+    margin-top: 20px;
+}
